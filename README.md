@@ -69,7 +69,8 @@ Purpose: Extract and store raw data exactly as received.
 - Timestamp-based idempotency check
 - Storage format: Parquet
 
-![alt text](image.png)
+<img width="2232" height="1119" alt="Captura de pantalla 2026-01-10 173645" src="https://github.com/user-attachments/assets/4fd45a50-ef03-4075-9864-afce477383c8" />
+
 
 🥈 Silver — Structured & Normalized
 
@@ -80,7 +81,8 @@ Purpose: Transform raw data into an analytical format.
 - Unpivots conversion rates using melt
 - Loads normalized data into PostgreSQL
 
-![alt text](image-1.png)
+<img width="2879" height="1460" alt="Captura de pantalla 2026-01-10 180519" src="https://github.com/user-attachments/assets/77ab92a3-5f41-4fa3-8c6d-9b80bdcd23a6" />
+
 
 🥇 Gold — Analytical Models (SQL)
 
@@ -157,4 +159,5 @@ Visual Tools:
 - USD strength by continent
 - Currency volatility ranking
 - Daily exchange rate trends
+
 - Regional exposure analysis

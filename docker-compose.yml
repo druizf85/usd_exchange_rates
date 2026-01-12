@@ -31,7 +31,7 @@ services:
     
     command: >
       bash -c "
-        pip install --no-cache-dir -r /requirements-airflow.txt &&  # Solo instala el Provider Docker
+        pip install --no-cache-dir -r /requirements-airflow.txt &&  
         airflow db init &&
         airflow users create --username $AIRFLOW_ADMIN_USER --firstname $AIRFLOW_ADMIN_FIRSTNAME --lastname $AIRFLOW_ADMIN_LASTNAME --role Admin --email $AIRFLOW_ADMIN_EMAIL --password $AIRFLOW_ADMIN_PASSWORD &&
         airflow webserver"
@@ -57,7 +57,7 @@ services:
       - /var/run/docker.sock:/var/run/docker.sock
     command: >
       bash -c "
-        pip install --no-cache-dir -r /requirements-airflow.txt &&  # Solo instala el Provider Docker
+        pip install --no-cache-dir -r /requirements-airflow.txt && 
         airflow scheduler"
     restart: unless-stopped
 

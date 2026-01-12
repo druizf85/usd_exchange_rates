@@ -1,6 +1,10 @@
+
 .env
 
 others/
 .ipynb_checkpoints/
+logs/
+plugins/
 
-.pbix
+*.pbix
+*.ipynb

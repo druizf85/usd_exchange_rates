@@ -148,3 +148,5 @@ Task Flow:    bronze_task → silver_task
 | bronze_task | API extraction → MinIO     |
 | silver_task | Normalization → PostgreSQL |
 
+<img width="2835" height="1265" alt="Captura de pantalla 2026-01-13 083822" src="https://github.com/user-attachments/assets/7aa4d61c-8d7b-4aae-8586-8b15e8ac3180" />
+

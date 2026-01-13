@@ -128,7 +128,6 @@ Visual Tools:
 - Regional exposure analysis
 
 
-
 🧠 Orchestration with Airflow
 DAG: exchange_rates_pipeline
 
@@ -144,7 +143,10 @@ Task Flow:    bronze_task → silver_task
 | silver_task | Normalization → PostgreSQL |
 
 
-📈 Project Impact:
+💼 Project Impact - Business & Investment Relevance:
+
+Accurate and timely exchange rate analysis is critical for investment decisions, risk management, and international exposure assessment. 
+By tracking currency appreciation, volatility, and regional USD strength, this pipeline enables investors and analysts to identify macroeconomic trends, hedge currency risk, and evaluate cross-border opportunities using reliable, data-driven insights.
 
 
 

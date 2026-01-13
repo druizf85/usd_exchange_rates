@@ -1,5 +1,4 @@
-💱 Exchange Rates Analytics Pipeline -> Daily Currency Conversion & USD Strength Analysis
-
+# 💱 Exchange Rates Analytics Pipeline -> Daily Currency Conversion & USD Strength Analysis
 
 📌 Project Overview: 
 This project implements a production-style ELT data pipeline for daily exchange rate analysis, designed to showcase modern Data Engineering best practices:
@@ -11,6 +10,11 @@ This project implements a production-style ELT data pipeline for daily exchange 
 - Analytical modeling for BI dashboards (Power BI)
 
 The pipeline ingests daily currency exchange rates, processes them through structured layers, and exposes business-ready analytical views for geo-economic insights and USD strength analysis.
+
+💼 Project Impact - Business & Investment Relevance:
+
+Accurate and timely exchange rate analysis is critical for investment decisions, risk management, and international exposure assessment. 
+By tracking currency appreciation, volatility, and regional USD strength, this pipeline enables investors and analysts to identify macroeconomic trends, hedge currency risk, and evaluate cross-border opportunities using reliable, data-driven insights.
 
 
 💡 Main Idea: Daily analysis of exchange rates and currency conversion against USD, enabling:
@@ -127,6 +131,8 @@ Visual Tools:
 - Daily exchange rate trends
 - Regional exposure analysis
 
+<img width="1416" height="800" alt="image" src="https://github.com/user-attachments/assets/388a020d-8796-41fc-bb96-a5294a887b7b" />
+
 
 🧠 Orchestration with Airflow
 DAG: exchange_rates_pipeline
@@ -141,13 +147,4 @@ Task Flow:    bronze_task → silver_task
 | ----------- | -------------------------- |
 | bronze_task | API extraction → MinIO     |
 | silver_task | Normalization → PostgreSQL |
-
-
-💼 Project Impact - Business & Investment Relevance:
-
-Accurate and timely exchange rate analysis is critical for investment decisions, risk management, and international exposure assessment. 
-By tracking currency appreciation, volatility, and regional USD strength, this pipeline enables investors and analysts to identify macroeconomic trends, hedge currency risk, and evaluate cross-border opportunities using reliable, data-driven insights.
-
-
-
 

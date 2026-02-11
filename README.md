@@ -11,6 +11,10 @@ This project implements a production-style ELT data pipeline for daily exchange 
 
 The pipeline ingests daily currency exchange rates, processes them through structured layers, and exposes business-ready analytical views for geo-economic insights and USD strength analysis.
 
+<img width="1536" height="1024" alt="ChatGPT Image Feb 11, 2026, 01_33_37 AM" src="https://github.com/user-attachments/assets/963513fa-d33f-40b7-85a4-5c1f6c5f9731" />
+
+
+
 💼 Project Impact - Business & Investment Relevance:
 
 Accurate and timely exchange rate analysis is critical for investment decisions, risk management, and international exposure assessment. 
